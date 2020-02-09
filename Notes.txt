@@ -39,3 +39,9 @@ Getting started with Expo
 
 	- Once you have an app and have run npm start, you can open it using expo on your native device (an app you get from app/play store) and can scan the QR code that is in the terminal.
 	- Expo will  then compile / bundle your javascript and display your app on your native device.
+
+	- The .expo folder contains expo configuration options
+	- The assets contains images like your splash screen
+	- If you look at the App.js file, you will see that it looks just like any other React app.  We still use JSX and components to build our app.
+	- The View and Text components will be compiled into native widgets
+	- The StyleSheet class is a utility provided by React Native that allows you to style your app.
