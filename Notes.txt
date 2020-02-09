@@ -25,3 +25,14 @@ How do we get started?
 	- If you're using native features, you may have to import features and packages to make things work.
 
 	- If you're justing getting started, the expo CLI will probably be your best bet because you don't need to know so much about native things.
+	- You can install the expo client on your device which will allow you to test your app and see how it will work on a native device.
+	- You can publish your app to the expo client so other people that have the expo client can use your app
+	- Using expo, you can publish your app to the app store or play store so that people don't have to have the expo client to use your app
+
+Getting started with Expo
+	- Go to https://expo.io and click getting started
+	- You need node.js as a dependency
+	- You can install the expo cli by running npm install expo-cli --global
+	- This will install the expo-cli globally on your machine so you can create apps easily.
+	- Once installed, you can create a new expo-cli app by running expo init my-project-name
+	- When prompted for a template, do not choose bare minimum as that will not install the convenience things from expo-cli
