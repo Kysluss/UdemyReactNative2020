@@ -1,0 +1,27 @@
+React Native
+
+What is it?
+	- React is platform agnostic.  
+	- React is a javascript library used for building user interfaces
+	- When we use React for web development, we use ReactDOM.  React DOM knows how to take your React stuff and render it to the browser
+	- React Native is like ReactDOM except it is for native mobile apps
+	- React Native provides a collection of special components that are used for mobile development
+	- Once compiled, it will be come a real native mobile app that you can deploy to Androis and iOS
+	- Views are compiled into real native elements
+	- Your business logic will not be compiled
+	- The React Native components will be compiled into native elements
+	- The business logic, http requests, etc are run on a separate thread within your app that is running a Javascript virtual machine
+
+How do we get started?
+	- Expo CLI = third party service which is completely free
+	- It gives you a managed app development workflow
+	- The downside is that you are locked into the expo workflow and all of the limitations that come with expo
+	- It will extract away some of the complexities of building a native app which can help make development easier
+
+	- React Native CLI = managed by the react native team and community
+	- Bare bones development
+	- It can be more cumbersome because there are almost no convenience or utility features
+	- Full flexibility which will allow you to write native code for app development (android or iOS)
+	- If you're using native features, you may have to import features and packages to make things work.
+
+	- If you're justing getting started, the expo CLI will probably be your best bet because you don't need to know so much about native things.
