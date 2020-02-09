@@ -84,3 +84,21 @@ So, should I still learn React Native?
 	- These are very similar to RN where you get a compiled app
 	- They are just different languages than RN, so you would have to learn those
 	- These are also a good alternative
+
+What are the requirements to build a RN app?
+	- Windows => iOS or Linux, you cannot build an app for iOS or Linux on a Windows machine
+	- This is a restriction put in by Apple and Linux
+	- You can get around this by using Expo as the app is then built on their servers and deployed for you
+
+	- Windows => Android, full local support
+
+	- MacOS => iOS and Androis full local support
+
+How do I test on a device?
+	- You can download the expo app on your local device which is great, but it limits you only to what you own
+
+	- You can use a simulator on your development machine
+	- Great alternative as you no longer have to own a bunch of different devices
+	- Allows you to test on a specific version of a device (older iPhone or Android device)
+	- Go to docs.expo.io
+	- Under the managed workflow, you can learn how to install an Android and iOS simulator
