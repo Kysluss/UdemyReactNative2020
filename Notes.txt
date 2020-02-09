@@ -36,3 +36,6 @@ Getting started with Expo
 	- This will install the expo-cli globally on your machine so you can create apps easily.
 	- Once installed, you can create a new expo-cli app by running expo init my-project-name
 	- When prompted for a template, do not choose bare minimum as that will not install the convenience things from expo-cli
+
+	- Once you have an app and have run npm start, you can open it using expo on your native device (an app you get from app/play store) and can scan the QR code that is in the terminal.
+	- Expo will  then compile / bundle your javascript and display your app on your native device.
