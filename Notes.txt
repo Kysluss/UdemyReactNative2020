@@ -45,3 +45,42 @@ Getting started with Expo
 	- If you look at the App.js file, you will see that it looks just like any other React app.  We still use JSX and components to build our app.
 	- The View and Text components will be compiled into native widgets
 	- The StyleSheet class is a utility provided by React Native that allows you to style your app.
+
+React native apps are hard work.  It's not about writing JS code once and having it run everwhere.  You will have to learn what certain code will look like on each platform and then style each of your components around that.
+
+React Native is more about the "Learn once, write everywhere" philosophy.  You will have to learn what looks good on each platform and build around that.  This means you will have a lot of if statements written around each specific platform.
+
+This applies tremendously to styling.  There is little or no cross platform styling.
+
+There are very few pre-built components that will compile down to native code, but they are pretty much everything you need.
+
+You will have to write a lot of code to do responsive design.  There are little to no tools out there that will do responsive design and adjust element height / width for you.  You will have to write a lot of code to check the device size and then adjust your components based on that.
+
+React Native is also a "fast-moving target".  There are new versions almost every month.  As a result, breaking changes do happen.
+
+With React Native, you will have a high dependency on third party packages that also change.  Because we are using expo, you won't run into this as much because it handles a lot of this for us.  If you are using a bare bones setup, though, you will have to utilize a lot of these third party packages to do things like accessing the camera or bluetooth.  Because we utilize expo, we don't have to worry about that.
+
+There are some bugs in React Native.  Sometimes, things just won't as you would expect.  You may have to get creative to get around some of these.  As a result, you will want to make sure you stay up to date on the RN releases to get bug fixes and enhancements.  This does not mean that everything will work flawlessly and you will have to be willing to go to Google for answers to things and use workarounds.
+
+So, should I still learn React Native?
+
+	- You could still go the absolute native route and write apps in Java / Android for Androide devices and Swift / Objective C for iOS devices.
+	- The downside is you will have to learn each of these languages and will have to basically write 2 apps.  You lose the ability to share logic and things between the two apps when you do this.
+	- That may not be bad, but it does slow down your time to release each app as you have to maintain each one separately.
+
+	- You can also build a Progressive Web App (PWA).
+	- This is nice as it allows you to still maintain 1 code base, but it relies on your users being on a device and browser that support these features
+	- Not available in all browsers on all devices.
+	- Not able to be distributed through the app/play stores
+
+	- Use Ionic or a similar solution
+	- This allows you to build a web app using modern web technologies
+	- Ionic wraps your web app in some code that allows it to function as a real native app
+	- This does have slightly worse performance as you are basically running everything through a Web View
+	- It's just a wrapper around a web app
+	- The benefit of using RN is that it will compile it down to a native app
+
+	- You can use Fluttr or Native Script
+	- These are very similar to RN where you get a compiled app
+	- They are just different languages than RN, so you would have to learn those
+	- These are also a good alternative
