@@ -125,3 +125,5 @@ Styling
 	- Most colors are supported by RN and you can see a comprehensive list on their site
 	- React Native uses flexbox styling out of the box
 	- The flexbox styling is pretty much the same as web flexbox except with a few differences in the defaults
+	- For width styling, you can use pixels (just a number) or a % based '80%' with quotes
+	- Using inline styles is a little cumbersome and can make your component more difficult to read
