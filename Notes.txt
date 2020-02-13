@@ -110,3 +110,10 @@ Remember, this is not a web app
 	- There are inline styles and stylesheet objects, but no CSS
 	- Only a subset of the CSS styles implemented (influenced by CSS)
 	- Stylesheet objects are easier to work with than inline styles
+
+A <View> component is like a div in web meant to wrap your content
+A <Text> component is like a p in web meant to display text
+You cannot display text without wrapping it in a <Text> component
+An <Image> component is like an img in web meant to display an image
+One of the main jobs of the <View> is to receive styles
+You can nest views within each other
