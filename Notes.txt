@@ -102,3 +102,11 @@ How do I test on a device?
 	- Allows you to test on a specific version of a device (older iPhone or Android device)
 	- Go to docs.expo.io
 	- Under the managed workflow, you can learn how to install an Android and iOS simulator
+
+Remember, this is not a web app
+	- You won't have access to the same types of styles as you do in the web
+	- There is no CSS
+	- A lot of the styling is influenced by CSS
+	- There are inline styles and stylesheet objects, but no CSS
+	- Only a subset of the CSS styles implemented (influenced by CSS)
+	- Stylesheet objects are easier to work with than inline styles
