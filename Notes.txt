@@ -127,3 +127,17 @@ Styling
 	- The flexbox styling is pretty much the same as web flexbox except with a few differences in the defaults
 	- For width styling, you can use pixels (just a number) or a % based '80%' with quotes
 	- Using inline styles is a little cumbersome and can make your component more difficult to read
+
+Flexbox styling
+	- By default, everything in React Native uses flexbox
+	- By default, RN organizes things from top to bottom as a column, this is the flexDirection
+	- By default, boxes are only as wide and tall as needed to display the content contained
+	- If you update the parent container's width and height, the height will be adjusted automatically but the width will not
+	- This is because by default, the children align themselves against the cross axis (reverse of what the main axis is)
+	- justifyContent aligns elements against the main axis
+	- alignItems aligns elements against the cross axis
+	- For items that are inside of a flexbox parent, you can use the flex property
+	- By specifying flex: 1, the item will take all available width it can take
+	- You can specify flex: 1 on multiple child elements
+	- The child elements will divide the space amongst themselves when you do that
+	- Flex is additive, so if you want one element to be twice as big as another, you can specify flex: 2
