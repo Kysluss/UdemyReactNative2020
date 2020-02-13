@@ -141,3 +141,15 @@ Flexbox styling
 	- You can specify flex: 1 on multiple child elements
 	- The child elements will divide the space amongst themselves when you do that
 	- Flex is additive, so if you want one element to be twice as big as another, you can specify flex: 2
+
+Stylesheet
+	- That is a class provided by RN
+	- Always use Stylesheet.create({}); because in future releases of RN, they may apply performance optimizations
+	- The create keyword does some validation to make sure the style you're trying to apply exists
+	- This is an object of nested objects so that you can name your styles { screen: { padding: 30, ...} }
+	- Using this helps keep code cleaner because your styles are defined elsewhere
+	- You can reuse styles in this way as well
+
+console.log is supported in RN
+This will display whatever you've logged in your console window
+It will also be displayed in the Expo dev tools running in the browser
