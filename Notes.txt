@@ -153,3 +153,8 @@ Stylesheet
 console.log is supported in RN
 This will display whatever you've logged in your console window
 It will also be displayed in the Expo dev tools running in the browser
+
+The Text component does support styling, but not as much as View.  It's better to wrap it in a View to ensure all of your styles are supported.
+
+Padding = spacing between border and content
+Margin = spacing between border and elements around
