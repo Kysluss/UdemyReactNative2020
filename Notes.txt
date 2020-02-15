@@ -158,3 +158,9 @@ The Text component does support styling, but not as much as View.  It's better t
 
 Padding = spacing between border and content
 Margin = spacing between border and elements around
+
+Scrolling Views
+	- By default, when content exceeds the boundaries of the page, you cannot scroll
+	- Just because your content extends off the page, the mobile device will just ignore it or treat it like it's not there
+	- You have to tell RN that it's okay to scroll this content
+	- ScrollView is the view to use
