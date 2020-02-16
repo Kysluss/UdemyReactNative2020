@@ -164,3 +164,14 @@ Scrolling Views
 	- Just because your content extends off the page, the mobile device will just ignore it or treat it like it's not there
 	- You have to tell RN that it's okay to scroll this content
 	- ScrollView is the view to use
+	- ScrollViews can be inefficient for very long lists of items
+	- Great for smaller lists or lists where the length is always known
+	- This is because it renders all elements in advance, even the ones that are not on the screen
+	- This can slow down your app when all of the elements are being displayed on the screen even though they aren't being displayed
+
+FlatList
+	- This replaces the ScrollView component when you have long lists or lists of unknown size
+	- This is a self closing element <FlatList ... />
+	- Takes 2 properties
+		data = the array of elements you are going to be displaying
+		renderItem = a function that returns JSX.  Has an argument of itemData which is a complex data of item (the data), index (index of array), separator (dynamic separator between items)
